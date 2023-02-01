@@ -1,0 +1,153 @@
+:root {
+  --white-one: #FFFFFF;
+  --secondary-grey: #c0c0c0;
+  --blue-buttom: #167bf7;
+  --background-color: #00030c;
+  --titlefont: 'Inter';
+  --blue--buttom-efect: #92c0f8;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--white-one);
+  font-family: var(--titlefont);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  background-image: url(./assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container__buttom {
+  background-color: var(--blue-buttom);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--white-one);
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+.second_buttom {
+  background-color: transparent;
+  border: 2px solid var(--white-one);
+}
+
+.container__signal {
+  font-size: 12px;
+  color: var(--secondary-grey);
+}
+
+.container__title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container__image {
+  margin: 1em 0 2em 0;
+}
+
+.container__box {
+  margin: 0 6em;
+}
+
+.secondary {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.secondary__image {
+  width: 80%;
+}
+
+.descripition__title {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--white-one);
+  margin-bottom: 0.1em;
+}
+
+.description__text {
+  color: var(--secondary-grey);
+}
+
+.secondary__buttom {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container__description {
+  padding: 2em;
+}
+
+.devices__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.devices {
+  text-align: center;
+}
+
+.devices__title {
+  font-size: 48px;
+  color: var(--white-one);
+}
+
+.item__list {
+  font-size: 24px;
+  color: var(--white-one);
+}
+
+.footer {
+  align-items: center;
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.footer__list a {
+  color: var(--white-one);
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 3em;
+}
+
+.footer__text {
+  font-size: 14px;
+  color: var(--secondary-grey);
+  margin: 1em 0;
+}
+
+.link__link a:hover {
+  color: var(--blue-buttom);
+}
+
+.container__buttom:hover {
+  background-color: var(--blue--buttom-efect);
+  color: black;
+}
